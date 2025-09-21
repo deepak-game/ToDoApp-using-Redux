@@ -29,7 +29,7 @@ function AddTask({ taskData, editTaskId }) {
   };
 
   return (
-    <div className="min-w-[200px] max-w-[400px] border m-2 p-2">
+    <div className="max-w-[400px] border m-2 p-2">
       <h1 className="font-medium text-blue-200 text-center">
         {editTaskId ? "Edit Task" : "Add Task"}
       </h1>

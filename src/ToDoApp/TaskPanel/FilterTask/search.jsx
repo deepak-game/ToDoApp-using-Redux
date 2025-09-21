@@ -24,10 +24,11 @@ function Search() {
 
   function clearSearch() {
     setQuery("");
+    dispatch(filterData([]));
   }
 
   return (
-    <div className="border min-h-[250px] max-w-[300px] my-2 p-2 text-center">
+    <div className="border  max-w-[300px] my-2 p-2 text-center">
       <strong className="text-lg text-center text-blue-200">
         Filter and Search Task
       </strong>

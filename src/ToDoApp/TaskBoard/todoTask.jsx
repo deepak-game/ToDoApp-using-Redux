@@ -8,7 +8,7 @@ function TodoTask() {
   const taskData = source.filter((el) => el.status === "To Do");
 
   return (
-    <div className="bg-gray-100 p-2 min-h-32">
+    <div className="bg-gray-100 p-1 sm:min-h-64 sm:min-w-64">
       <h1 className="font-semibold text-center text-xl">TodoTasks</h1>
       {taskData.length ? (
         taskData.map((el, i) => (
